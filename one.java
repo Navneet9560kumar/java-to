@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class one {
 
       public static int min(int[] arr, int n) {
@@ -48,8 +50,30 @@ public class one {
         }
 
       //   public int[] sortArray(int[] nums) {
+
+
+private void createAdjList(List<List<Integer>> adj, int n) {
+        for (int i = 0; i < n - 1; i++) {
+            adj.get(i).add(i + 1);
+        }
+    }
+
+    private void DFS(int src, List<Integer> topo, boolean[] vis, List<List<Integer>> adj) {
+      vis[src] = true;
+      for (int neighbor : adj.get(src)) {
+          if (!vis[neighbor]) {
+              DFS(neighbor, topo, vis, adj);
+          }
+      }
+      topo.add(src);
+  }
+
+
+
         
-        
+      // public int[] shortestDistanceAfterQueries(int n, int[][] queries) {
+      //   if (DFS> )
+      // }
     
         public static void main(String[] args) {
             int[] arr = {1, 4, 3, 2, 6, 5};
