@@ -5,7 +5,7 @@ public class sumParameterised {
             if(n==0) return;
             System.out.println(n);
             print(n-1);
-            System.out.println(n);
+            System.out.println(n);  
       }
 
       public static void sum(int n, int s  ){
@@ -16,6 +16,7 @@ public class sumParameterised {
             sum(n-1,s+n);
       }
 
+
       public static void main(String[] args) {
             Scanner sc  =new Scanner(System.in);
             System.out.println("Enter the number in ");
@@ -23,7 +24,8 @@ public class sumParameterised {
            sum(n,0);
             
       }
-}
+} 
+
 
 
 
