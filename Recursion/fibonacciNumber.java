@@ -8,6 +8,8 @@ public class fibonacciNumber {
             return fibo(n - 1) + fibo(n - 2);
       }
 
+
+
       public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter the base : ");
@@ -15,3 +17,6 @@ public class fibonacciNumber {
             System.out.println(fibo(n));
       }
 }
+
+
+// so the thing is a ham fab nkela rahe hai ok  to iske kaam karte hai 

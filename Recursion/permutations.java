@@ -12,7 +12,7 @@ public class permutations {
                         printPermutations(ans+ch, left+right);
                   }
             }
-
+ 
 
       public static void main(String[] args) {
             String s = "abcd  ";
