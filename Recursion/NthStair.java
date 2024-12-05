@@ -1,6 +1,7 @@
-import java.util.Scanner;
+import java.util.*;
 
-public class NthStair {
+
+ public class NthStair {
      public static int stair(int n) {
             if(n<=2)return n;
             return stair(n - 1) + stair(n - 2);
@@ -11,5 +12,6 @@ public class NthStair {
             System.out.println("Enter the base : ");
             int n = sc.nextInt();
             System.out.println(stair(n));
+             
       }
 }
