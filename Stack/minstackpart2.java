@@ -4,13 +4,9 @@ import java.util.Stack;
 
 public class minstackpart2 {
 
-       static Stack<Integer>st = new Stack<>();
-      static int min =-1;
-            
-                  
-            
-            
-                  public void push(int val){
+          static Stack<Integer>st = new Stack<>();
+           static int min =-1;
+             public void push(int val){
                         if(st.size()==0){
                             st.push(val);
                             min = val;
