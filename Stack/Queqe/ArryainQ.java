@@ -1,4 +1,4 @@
-package Linklist.Queue;
+package Stack.Queqe;
 
 public class ArryainQ {
 
