@@ -6,6 +6,48 @@
       "configurations": [
             {
                   "type": "java",
+                  "name": "Twosum",
+                  "request": "launch",
+                  "mainClass": "Twosum",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
+                  "name": "secondlargest",
+                  "request": "launch",
+                  "mainClass": "secondlargest",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
+                  "name": "Linearse",
+                  "request": "launch",
+                  "mainClass": "Linearse",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
+                  "name": "Ques",
+                  "request": "launch",
+                  "mainClass": "Ques",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
+                  "name": "initisaly",
+                  "request": "launch",
+                  "mainClass": "initisaly",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
+                  "name": "whatarr",
+                  "request": "launch",
+                  "mainClass": "whatarr",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
                   "name": "circularQ",
                   "request": "launch",
                   "mainClass": "Stack.Queqe.circularQ",
