@@ -6,6 +6,34 @@
       "configurations": [
             {
                   "type": "java",
+                  "name": "PreorderLeetcode",
+                  "request": "launch",
+                  "mainClass": "PreorderLeetcode",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
+                  "name": "Traversals",
+                  "request": "launch",
+                  "mainClass": "Traversals",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
+                  "name": "findsumintree",
+                  "request": "launch",
+                  "mainClass": "findsumintree",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
+                  "name": "impletemisiontree",
+                  "request": "launch",
+                  "mainClass": "impletemisiontree",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
                   "name": "Twosum",
                   "request": "launch",
                   "mainClass": "Twosum",
