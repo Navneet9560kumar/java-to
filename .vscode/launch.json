@@ -6,6 +6,13 @@
       "configurations": [
             {
                   "type": "java",
+                  "name": "SplitArray",
+                  "request": "launch",
+                  "mainClass": "SplitArray",
+                  "projectName": "New  question_7f0de056"
+            },
+            {
+                  "type": "java",
                   "name": "PreorderLeetcode",
                   "request": "launch",
                   "mainClass": "PreorderLeetcode",
