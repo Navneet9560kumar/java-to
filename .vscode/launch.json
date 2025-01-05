@@ -1,99 +1,106 @@
 {
-      // Use IntelliSense to learn about possible attributes.
-      // Hover to view descriptions of existing attributes.
-      // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-      "version": "0.2.0",
-      "configurations": [
-            {
-                  "type": "java",
-                  "name": "levelorderBSF",
-                  "request": "launch",
-                  "mainClass": "levelorderBSF",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "SplitArray",
-                  "request": "launch",
-                  "mainClass": "SplitArray",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "PreorderLeetcode",
-                  "request": "launch",
-                  "mainClass": "PreorderLeetcode",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "Traversals",
-                  "request": "launch",
-                  "mainClass": "Traversals",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "findsumintree",
-                  "request": "launch",
-                  "mainClass": "findsumintree",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "impletemisiontree",
-                  "request": "launch",
-                  "mainClass": "impletemisiontree",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "Twosum",
-                  "request": "launch",
-                  "mainClass": "Twosum",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "secondlargest",
-                  "request": "launch",
-                  "mainClass": "secondlargest",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "Linearse",
-                  "request": "launch",
-                  "mainClass": "Linearse",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "Ques",
-                  "request": "launch",
-                  "mainClass": "Ques",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "initisaly",
-                  "request": "launch",
-                  "mainClass": "initisaly",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "whatarr",
-                  "request": "launch",
-                  "mainClass": "whatarr",
-                  "projectName": "New  question_7f0de056"
-            },
-            {
-                  "type": "java",
-                  "name": "circularQ",
-                  "request": "launch",
-                  "mainClass": "Stack.Queqe.circularQ",
-                  "projectName": "New  question_7f0de056"
-            }
-      ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Iterative_pre_in_post",
+      "request": "launch",
+      "mainClass": "Iterative_pre_in_post",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "levelorderBSF",
+      "request": "launch",
+      "mainClass": "levelorderBSF",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "SplitArray",
+      "request": "launch",
+      "mainClass": "SplitArray",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "PreorderLeetcode",
+      "request": "launch",
+      "mainClass": "PreorderLeetcode",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Traversals",
+      "request": "launch",
+      "mainClass": "Traversals",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "findsumintree",
+      "request": "launch",
+      "mainClass": "findsumintree",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "impletemisiontree",
+      "request": "launch",
+      "mainClass": "impletemisiontree",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Twosum",
+      "request": "launch",
+      "mainClass": "Twosum",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "secondlargest",
+      "request": "launch",
+      "mainClass": "secondlargest",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Linearse",
+      "request": "launch",
+      "mainClass": "Linearse",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Ques",
+      "request": "launch",
+      "mainClass": "Ques",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "initisaly",
+      "request": "launch",
+      "mainClass": "initisaly",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "whatarr",
+      "request": "launch",
+      "mainClass": "whatarr",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "circularQ",
+      "request": "launch",
+      "mainClass": "Stack.Queqe.circularQ",
+      "projectName": "New  question_7f0de056"
+    }
+  ]
 }
