@@ -1,4 +1,4 @@
-package Arryas;
+ package Arryas;
 
 public class sortZeroOneTwo {
       public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class sortZeroOneTwo {
             //       else arr[i]=2;
             // }
 
-            // method 2 :Dutch Flag Algo
+            // method 2 :(Dutch Flag Algo)
 
             int mid=0,hi=n-1,lo=0;
             while (mid<=hi) {
