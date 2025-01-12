@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Question",
+      "request": "launch",
+      "mainClass": "Arryas.Question",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "sortZeroesOnes",
       "request": "launch",
       "mainClass": "sortZeroesOnes",
