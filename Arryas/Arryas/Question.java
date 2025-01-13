@@ -2,7 +2,7 @@ package Arryas;
 
 import java.util.*;
 
-
+import TreePW.boolen;
 
 public class Question {
 
@@ -59,93 +59,126 @@ public class Question {
 
       public static void duplicate(int[] arr) {
             int n = arr.length;
-            
+
             if (n == 0) {
-                System.out.println("Array is empty");
-                return;
+                  System.out.println("Array is empty");
+                  return;
             }
-    
+
             Arrays.sort(arr);
             System.out.println("Array duplicate numbers:");
-    
+
             boolean flag = false;
-    
+
             for (int i = 0; i < n - 1; i++) {
-                if (arr[i] == arr[i + 1]) {
-                    System.out.println(arr[i]);
-                    flag = true;
-    
-                    // Skip printing the same duplicate again
-                    while (i < n - 1 && arr[i] == arr[i + 1]) {
-                        i++;
-                    }
-                }
+                  if (arr[i] == arr[i + 1]) {
+                        System.out.println(arr[i]);
+                        flag = true;
+
+                        // Skip printing the same duplicate again
+                        while (i < n - 1 && arr[i] == arr[i + 1]) {
+                              i++;
+                        }
+                  }
             }
-    
+
             if (!flag) {
-                System.out.println("No duplicate elements found in the array");
+                  System.out.println("No duplicate elements found in the array");
             }
-        }
+      }
 
-
-        
-      public static void greater(int[] arr,int x){
+      public static void greater(int[] arr, int x) {
             int count = 0;
-            if(arr.length==0){
+            if (arr.length == 0) {
                   System.out.println("Arry is empaty");
                   return;
             }
 
-           
-            for(int num:arr){
-                  if(num>x){
+            for (int num : arr) {
+                  if (num > x) {
                         count++;
-                       
+
                   }
             }
-            System.out.println("The number of elements greater than "+x+" is "+count);
+            System.out.println("The number of elements greater than " + x + " is " + count);
       }
 
-   public static void threegreater(int[]arr){
-      int n= arr.length;
-      if(n<3){
-            System.out.println("Invalid input");
-            return;
-      }
-      int firstInt = Integer.MIN_VALUE;
-        int secondInt = Integer.MIN_VALUE;
-        int thirdInt = Integer.MIN_VALUE;
-
-        // Traverse the array to find the three largest numbers
-        for (int i = 0; i < n; i++) {
-            if (arr[i] > firstInt) {
-                thirdInt = secondInt;
-                secondInt = firstInt;
-                firstInt = arr[i];
-            } else if (arr[i] > secondInt && arr[i] != firstInt) {
-                thirdInt = secondInt;
-                secondInt = arr[i];
-            } else if (arr[i] > thirdInt && arr[i] != secondInt && arr[i] != firstInt) {
-                thirdInt = arr[i];
+      public static void threegreater(int[] arr) {
+            int n = arr.length;
+            if (n < 3) {
+                  System.out.println("Invalid input");
+                  return;
             }
-        }
+            int firstInt = Integer.MIN_VALUE;
+            int secondInt = Integer.MIN_VALUE;
+            int thirdInt = Integer.MIN_VALUE;
 
-        // Print the results
-        System.out.println("Three largest numbers are: " + firstInt + ", " + secondInt + ", " + thirdInt);
-    }
+            // Traverse the array to find the three largest numbers
+            for (int i = 0; i < n; i++) {
+                  if (arr[i] > firstInt) {
+                        thirdInt = secondInt;
+                        secondInt = firstInt;
+                        firstInt = arr[i];
+                  } else if (arr[i] > secondInt && arr[i] != firstInt) {
+                        thirdInt = secondInt;
+                        secondInt = arr[i];
+                  } else if (arr[i] > thirdInt && arr[i] != secondInt && arr[i] != firstInt) {
+                        thirdInt = arr[i];
+                  }
+            }
 
+            // Print the results
+            System.out.println("Three largest numbers are: " + firstInt + ", " + secondInt + ", " + thirdInt);
+      }
 
+      public static void evenOddSum(int[] arr) {
+            int n = arr.length;
 
+            int evenSum = 0, oddSum = 0;
+            int evenCount = 0, oddCount = 0;
 
+            if (n == 0) {
+                  System.out.println("Array is empty");
+                  return;
+            }
+
+            for (int i = 0; i < n; i++) {
+                  if (arr[i] % 2 == 0) {
+                        evenSum += arr[i];
+                        evenCount++;
+                  } else {
+                        oddSum += arr[i];
+                        oddCount++;
+                  }
+            }
+
+            System.out.println("Even count: " + evenCount + ", Even sum: " + evenSum);
+            System.out.println("Odd count: " + oddCount + ", Odd sum: " + oddSum);
+      }
+
+      public static boolean isPalindrome(int[] arr) {
+            int n = arr.length;
+
+            for (int i = 0; i < n / 2; i++) {
+                  if (arr[i] != arr[n - i - 1]) {
+                        return false;
+                  }
+
+            }
+            return true;
+
+      }
 
       public static void main(String[] args) {
             int[] arr = { 12, 8, 41, 37, 2, 37, 16, 37, 21 };
-            int x =41;
+            int x = 41;
             sumAll(arr);
             productAll(arr);
             min(arr);
             duplicate(arr);
-            greater(arr,x);
+            greater(arr, x);
+            evenOddSum(arr);
+            
 
       }
 
