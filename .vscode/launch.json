@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "level",
+      "request": "launch",
+      "mainClass": "level",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "rowWishAndColWishePrinting",
+      "request": "launch",
+      "mainClass": "TowDarray.rowWishAndColWishePrinting",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "maxInArrya",
+      "request": "launch",
+      "mainClass": "TowDarray.maxInArrya",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "basice",
+      "request": "launch",
+      "mainClass": "TowDarray.basice",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Question",
       "request": "launch",
       "mainClass": "Arryas.Question",
