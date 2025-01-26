@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "diameter",
+      "request": "launch",
+      "mainClass": "diameter",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "level",
       "request": "launch",
       "mainClass": "level",
