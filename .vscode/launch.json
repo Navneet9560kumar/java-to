@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Javaproject.Plagiarism_checker.src.Main",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "PlagiarismChecker",
+      "request": "launch",
+      "mainClass": "Javaproject.Plagiarism_checker.src.PlagiarismChecker",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Kmpalgo",
+      "request": "launch",
+      "mainClass": "Javaproject.Kmpalgo",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "pathsum",
       "request": "launch",
       "mainClass": "pathsum",

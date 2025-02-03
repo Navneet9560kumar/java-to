@@ -1,0 +1,3 @@
+Data Structures and Algorithms are fundamental for solving complex computational problems.
+They help optimize performance and manage data efficiently.
+This document is the original source file for plagiarism detection.

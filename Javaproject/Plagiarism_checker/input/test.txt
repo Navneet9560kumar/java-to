@@ -1,0 +1,3 @@
+Algorithms are fundamental for solving computational problems.
+Plagiarism detection compares documents for similarities.
+Efficient data management is critical in computer science.
