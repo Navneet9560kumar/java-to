@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "InorderPreorder",
+      "request": "launch",
+      "mainClass": "InorderPreorder",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "inoder_peroder",
+      "request": "launch",
+      "mainClass": "inoder_peroder",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "InorderIterative",
+      "request": "launch",
+      "mainClass": "InorderIterative",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "perorder_iterative",
+      "request": "launch",
+      "mainClass": "perorder_iterative",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Javaproject.Plagiarism_checker.src.Main",
