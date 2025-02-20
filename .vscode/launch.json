@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TraverseBST",
+      "request": "launch",
+      "mainClass": "TreePW.BinarySerchTree.TraverseBST",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "CountBST",
+      "request": "launch",
+      "mainClass": "TreePW.BinarySerchTree.CountBST",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "InorderPreorder",
       "request": "launch",
       "mainClass": "InorderPreorder",
