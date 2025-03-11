@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "unique",
+      "request": "launch",
+      "mainClass": "MAPS.unique",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Treeset",
+      "request": "launch",
+      "mainClass": "MAPS.Treeset",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Twosum",
+      "request": "launch",
+      "mainClass": "MAPS.Twosum",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "twosum",
+      "request": "launch",
+      "mainClass": "twosum",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "iterateMap",
+      "request": "launch",
+      "mainClass": "MAPS.iterateMap",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "mapbase",
+      "request": "launch",
+      "mainClass": "MAPS.mapbase",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "setiterate",
+      "request": "launch",
+      "mainClass": "MAPS.setiterate",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "basicset",
+      "request": "launch",
+      "mainClass": "MAPS.basicset",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "TraverseBST",
       "request": "launch",
       "mainClass": "TreePW.BinarySerchTree.TraverseBST",
