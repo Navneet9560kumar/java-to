@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LeetCodeQues",
+      "request": "launch",
+      "mainClass": "LeetCodeQues",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "ChangeArr",
       "request": "launch",
       "mainClass": "MAPS.ChangeArr",
