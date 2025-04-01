@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "canVisitAllrooms",
+      "request": "launch",
+      "mainClass": "Graph.canVisitAllrooms",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "findcirclenum",
+      "request": "launch",
+      "mainClass": "Graph.findcirclenum",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "NicePairs",
       "request": "launch",
       "mainClass": "MAPS.NicePairs",
