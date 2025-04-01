@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NicePairs",
+      "request": "launch",
+      "mainClass": "MAPS.NicePairs",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "nicePairs",
+      "request": "launch",
+      "mainClass": "MAPS.nicePairs",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "LeetCodeQues",
       "request": "launch",
       "mainClass": "LeetCodeQues",
