@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Numisland",
+      "request": "launch",
+      "mainClass": "Graph.Numisland",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "sahirasta",
+      "request": "launch",
+      "mainClass": "Graph.sahirasta",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "canVisitAllrooms",
       "request": "launch",
       "mainClass": "Graph.canVisitAllrooms",
