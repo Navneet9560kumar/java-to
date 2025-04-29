@@ -45,8 +45,54 @@
 // Valid Topological Sort: 4 5 2 3 1 0\
 // only of all nodes of the graph such that if a & b then if a &b are nodes & a->b then in the ordering a will always come before b this is pw 
 
-
+import java.util.PriorityQueue;
 
 public class Topologicsort {
-      
+
+      public class Triplet implements Comparable<Triplet> {
+      int row;
+      int col;
+      int effort;
+      Triplet(int row, int col,int effort){
+            this.row = row;
+            this.col = col;
+            this.effort = effort;
+       }
+       public int compareTo(Triplet t){
+            if(this.effort == t.effort) return this.row - t.row;
+            return this.effort -t.effort;
+       }
+            
+      }
+
+      public int minimumEffortPath(int[][] arr) {
+        int m = arr.length,n = arr[0].length;
+        int [][] ans = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for(int j=0;j<n;j++){
+                  ans[i][j] = Integer.MAX_VALUE;
+                  ans[0][0] =0;
+
+                  PriorityQueue<Triplet>pq =new  PriorityQueue<>();
+                  pq.add(new Triplet(0, 0, 0));
+                  while(pq.size()>0){
+                        Triplet top = pq.remove();
+                        int  row = top.row, col = top.col, effort = top.effort;
+                        if(row>0){//got up
+                              int e = Math.abs(arr[row][col] -arr[row-1][col]);
+                              e = Math.max(e,effort);
+                              if(e<ans[row-1][col]){
+                                    ans[row-1][col] =e;
+                                    pq.add(new Triplet(row-1, col, e));
+                              }
+                        }
+                  }
+
+            }
+        }
+        return n;
+      }
+      public static void main(String[] args) {
+            
+      }
 }
