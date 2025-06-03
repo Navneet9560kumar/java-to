@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "leetcodeseveneightseven",
+      "request": "launch",
+      "mainClass": "leetcodeseveneightseven",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Primes",
       "request": "launch",
       "mainClass": "Primes",

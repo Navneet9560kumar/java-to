@@ -54,44 +54,66 @@ public class floydWarshallAlgo {
 
 
 public int findTheCity(int n, int[][] edges, int Threshold) {
-        int[][] dis = new int [n][n];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                dis[i][j] = Integer.MAX_VALUE;
-            //     for (int i = 0; i < edges.length; i++) {
-            //       int u = edges[i][0];
-            //       int v = edges[i][1];
-            //       int wt= edges[i][2];
-            //       dis[u][v] = wt;
-            //       dis[v][u] = wt;
-                  
-            //     } isko bhi rah sakte hai ham ok per ek way karne ka kaam 
-
-            for(int []arr: edges){
-                int u = arr[0];
-                int v = arr[1];
-                int wt = arr[2];
-                dis[u][v] = wt;
-                dis[v][u] = wt;
-                
-            }
-            // floyd warshall algo
-            for(int k=0;k<n;k++){// through all the nodes 
-                  for (int i = 0; i < n; i++) {
-                  for(int j=0;j<n;j++)
-                  if( j==k){
-                        if(dis[i][k] != Integer.MAX_VALUE && dis[k][j] != Integer.MAX_VALUE){
-                              dis[i][j] = Math.min(dis[i][j],dis[i][k]+dis[k][j]);
-                          }
-                        
-                  }
-                        
-
-                  }
-            }
-        }
-}
-      public static void main(String[] args) {
-            
+      int[][] dis = new int[n][n];
+      
+      // Step 1: Initialize the distance matrix
+      for (int i = 0; i < n; i++) {
+          Arrays.fill(dis[i], Integer.MAX_VALUE);
+          dis[i][i] = 0; // distance to self is 0
       }
+
+      // Step 2: Fill initial direct edge distances
+      for (int[] arr : edges) {
+          int u = arr[0];
+          int v = arr[1];
+          int wt = arr[2];
+          dis[u][v] = wt;
+          dis[v][u] = wt;
+      }
+
+      // Step 3: Apply Floyd Warshall Algorithm
+      for (int k = 0; k < n; k++) { // intermediate
+          for (int i = 0; i < n; i++) { // source
+              for (int j = 0; j < n; j++) { // destination
+                  if (dis[i][k] != Integer.MAX_VALUE && dis[k][j] != Integer.MAX_VALUE) {
+                      dis[i][j] = Math.min(dis[i][j], dis[i][k] + dis[k][j]);
+                  }
+              }
+          }
+      }
+
+      // Step 4: Find the city with minimum reachable cities
+      int minCity = -1;
+      int minCount = n;
+
+      for (int i = 0; i < n; i++) {
+          int count = 0;
+          for (int j = 0; j < n; j++) {
+              if (i != j && dis[i][j] <= Threshold) {
+                  count++;
+              }
+          }
+          if (count <= minCount) {
+              minCount = count;
+              minCity = i;
+          }
+      }
+
+      return minCity;
+  }
+
+  public static void main(String[] args) {
+      floydWarshallAlgo obj = new floydWarshallAlgo();
+      
+      int n = 4;
+      int[][] edges = {
+          {0, 1, 3},
+          {1, 2, 1},
+          {1, 3, 4},
+          {2, 3, 1}
+      };
+      int threshold = 4;
+      
+      System.out.println(obj.findTheCity(n, edges, threshold)); // Output will be correct now
+  }
 }
