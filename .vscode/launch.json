@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Proprimes",
+      "request": "launch",
+      "mainClass": "Proprimes",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "leetcodeseveneightseven",
       "request": "launch",
       "mainClass": "leetcodeseveneightseven",
