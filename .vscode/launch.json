@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "fibosss",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.fibosss",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Reversearr",
       "request": "launch",
       "mainClass": "RrvisionArrya.Reversearr",
