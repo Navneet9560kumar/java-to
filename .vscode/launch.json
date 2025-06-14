@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Reversearr",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.Reversearr",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Twosum",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.Twosum",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "passingtoarry",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.passingtoarry",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "maxele",
       "request": "launch",
       "mainClass": "RrvisionArrya.maxele",
