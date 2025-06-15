@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "basicsofarrya",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.basicsofarrya",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "copyofArray",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.copyofArray",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Arryalist",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.Arryalist",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "fibosss",
       "request": "launch",
       "mainClass": "DynamicProgramming.fibosss",
