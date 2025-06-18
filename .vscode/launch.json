@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "kesapsackpetop_down_app",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.kesapsackpetop_down_app",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "kesapsackper",
       "request": "launch",
       "mainClass": "DynamicProgramming.kesapsackper",
