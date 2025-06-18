@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "kesapsackper",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.kesapsackper",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "basicsofarrya",
       "request": "launch",
       "mainClass": "RrvisionArrya.basicsofarrya",

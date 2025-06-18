@@ -29,4 +29,4 @@ public class fibosss {
 // isme ham dp array ka use karte hai jo ki n+1 size ka hota hai aur ise ham 0 se n tak bharte hai       
 
 
-//Tabulation me ham dp array ko bharte hai aur ise bottom se top ki taraf bharte hai🙂🙂🙂🙂🙂🙂🙂 
+//Tabulation me ham dp array ko bharte hai aur ise bottom se top ki taraf bharte hai🙂🙂🙂🙂🙂🙂🙂   
