@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EqualsumpartitationAditya",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.EqualsumpartitationAditya",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "FriendPairingProblom",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.FriendPairingProblom",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "kesapsackpetop_down_app",
       "request": "launch",
       "mainClass": "DynamicProgramming.kesapsackpetop_down_app",
