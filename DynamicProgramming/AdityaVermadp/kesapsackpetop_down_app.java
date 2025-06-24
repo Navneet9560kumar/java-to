@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.AdityaVermadp;
 
 public class kesapsackpetop_down_app {
 

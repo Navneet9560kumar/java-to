@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.AdityaVermadp;
 
 public class EqualsumpartitationAditya {
 
@@ -7,7 +7,7 @@ public class EqualsumpartitationAditya {
         int sum = 0;
 
         // Step 2: loop laga ke total sum nikal lete hain
-        for (int num : arr) {
+        for (int num : arr) {  
             sum += num;
         }
 

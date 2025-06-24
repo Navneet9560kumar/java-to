@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinSubsetSumDifference",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.MinSubsetSumDifference",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "subsetSumcount",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.subsetSumcount",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "EqualsumpartitationAditya",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.EqualsumpartitationAditya",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "CountDerangementsgfg",
       "request": "launch",
       "mainClass": "DynamicProgramming.CountDerangementsgfg",
