@@ -51,3 +51,18 @@ public class MinSubsetSumDifference {
         System.out.println("Minimum difference for arr2: " + findMinDifference(arr2)); // Output: 0
       }
 }
+
+
+
+// Ek array arr[] diya gaya hai — usme kuch numbers hain.
+
+// 🔶 Task:
+// Us array ko do subsets (S1, S2) me divide karo is tarah se ki:
+
+// S1 aur S2 disjoint ho (koi common element nahi)
+
+// Dono ka sum ka difference minimum ho
+
+// 🔶 Mathematically:
+// Minimize abs(sum(S1) - sum(S2))
+
