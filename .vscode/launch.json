@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TargetSumWays_12",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.TargetSumWays_12",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "CountSubsetWithGivenDiff",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.CountSubsetWithGivenDiff",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "MinSubsetSumDifference",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.MinSubsetSumDifference",
