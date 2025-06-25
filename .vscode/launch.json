@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "nextGraterelement",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.nextGraterelement",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "MeargetwoArry",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.MeargetwoArry",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "twopasssaluction",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.twopasssaluction",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "TargetSumWays_12",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.TargetSumWays_12",
