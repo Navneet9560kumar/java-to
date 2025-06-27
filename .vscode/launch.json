@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RobcuttingProblem_1",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.unboundedKnapsack.RobcuttingProblem_1",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "nextGraterelement",
       "request": "launch",
       "mainClass": "RrvisionArrya.nextGraterelement",

@@ -1,4 +1,4 @@
-package DynamicProgramming.AdityaVermadp;
+package DynamicProgramming.AdityaVermadp.knapsack;
 
 public class MinSubsetSumDifference {
 

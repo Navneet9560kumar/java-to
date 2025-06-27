@@ -1,4 +1,4 @@
-package DynamicProgramming.AdityaVermadp;
+package DynamicProgramming.AdityaVermadp.knapsack;
 
 public class TargetSumWays_12 {
 
@@ -7,7 +7,7 @@ public class TargetSumWays_12 {
       int totalsum =0;
       for(int num:nums){
             totalsum += num;
-
+ 
       }
       // dekho ke (target+totalSum) is valied (even and non-negative)
       if((target +totalsum)%2 !=0|| target>totalsum ||target< -totalsum){
