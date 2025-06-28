@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "implementGraphs",
+      "request": "launch",
+      "mainClass": "Aid.implementGraphs",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Coinechageproblem_15",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.unboundedKnapsack.Coinechageproblem_15",
