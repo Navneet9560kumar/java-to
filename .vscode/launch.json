@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Coinechageproblem_15",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.unboundedKnapsack.Coinechageproblem_15",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "RobcuttingProblem_1",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.unboundedKnapsack.RobcuttingProblem_1",
