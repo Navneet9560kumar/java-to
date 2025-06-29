@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestcommonSubseqence_1",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.LongCS.LongestcommonSubseqence_1",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "implementGraphs",
       "request": "launch",
       "mainClass": "Aid.implementGraphs",
