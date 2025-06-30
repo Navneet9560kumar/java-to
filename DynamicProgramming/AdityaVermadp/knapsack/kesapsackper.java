@@ -1,6 +1,6 @@
 package DynamicProgramming.AdityaVermadp.knapsack;
 
-public class kesapsackper {
+public class   {
 
 // base layout for the knapsack problem
 // frist ham function banayenge ok int knapsack(int[] wt, int[] val, int W, int n) { {Base case }, {choice diagram}, {memoization}}

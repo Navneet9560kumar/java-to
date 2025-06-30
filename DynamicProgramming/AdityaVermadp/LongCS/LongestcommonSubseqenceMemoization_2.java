@@ -1,4 +1,4 @@
-package DynamicProgramming.LongCS;
+package DynamicProgramming.AdityaVermadp.LongCS;
 
 import java.util.Arrays;
 

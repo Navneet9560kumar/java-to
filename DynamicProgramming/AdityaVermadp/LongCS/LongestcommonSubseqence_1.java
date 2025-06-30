@@ -1,4 +1,4 @@
-package DynamicProgramming.LongCS;
+package DynamicProgramming.AdityaVermadp.LongCS;
 
 public class LongestcommonSubseqence_1 {
 
@@ -11,7 +11,7 @@ public class LongestcommonSubseqence_1 {
             return Math.max(LCS(x, y, m, n - 1), LCS(x, y, m - 1, n));
         }
     }
-
+ 
     public static void main(String[] args) {
         String x = "AGGTAB";
         String y = "GXTXAYB";
