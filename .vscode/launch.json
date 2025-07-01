@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestcommonsequenceBottom",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.LongCS.LongestcommonsequenceBottom",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "LongestCommonSubstring",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.LongCS.LongestCommonSubstring",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "LongestcommonSubseqenceString",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.LongCS.LongestcommonSubseqenceString",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "LongestcommonSubseqence_1",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.LongCS.LongestcommonSubseqence_1",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "LongestcommonSubseqence_1",
       "request": "launch",
       "mainClass": "DynamicProgramming.LongCS.LongestcommonSubseqence_1",
