@@ -25,6 +25,7 @@ public class minimumNumberofDeletion {
            public static int minDeletionsToPalindrome(String s) {
         int lps = longestPalindromicSubseq(s);
         return s.length() - lps;
+        
     }
       public static void main(String[] args) {
             String s = "abca";
