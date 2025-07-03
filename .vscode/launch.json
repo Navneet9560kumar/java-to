@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TransformintoTranspose",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.TwoDArrya.TransformintoTranspose",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "ShortestCommonSuperSequence",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.LongCS.ShortestCommonSuperSequence",

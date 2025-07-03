@@ -20,11 +20,12 @@ public class Transposematrix {
                   System.out.println(); // column wise printing hai
 
 
-                  //string 
+                  //storing 
                   int [][] tranpose = new int[n][m];
                   for (int i = 0; i < m; i++) {
                         for (int k = 0; k < n; k++) {
                               tranpose[k][i] = arr[i][k];
+                              
                         }
                         
                   }
