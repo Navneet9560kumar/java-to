@@ -12,7 +12,7 @@ public class LongestCommonSubstring {
             for (int j = 1; j <= n; j++) {
                 if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
                     dp[i][j] = dp[i - 1][j - 1] + 1;
-                    maxLen = Math.max(maxLen, dp[i][j]);// ye ku aayi ?
+                    maxLen = Math.max(maxLen, dp[i][j]);  // ye ku aayi ?
                     //Because we don't know where the longest substring will occur in the grid.
 // It could be anywhere in the dp table.
                 } else {
@@ -24,22 +24,22 @@ public class LongestCommonSubstring {
     }
 
     public static void main(String[] args) {
-        // Example 1
+        
         String s1 = "GeeksforGeeks";
         String s2 = "GeeksQuiz";
         System.out.println("Example 1:");
         System.out.println("Length of Longest Common Substring: " + longestCommonSubstring(s1, s2)); // Output: 5 ("Geeks")
 
         // Example 2
-        s1 = "abcdxyz";
-        s2 = "xyzabcd";
+        s1 = "abcdef";
+        s2 = "agcdhf";
         System.out.println("\nExample 2:");
         System.out.println("Length of Longest Common Substring: " + longestCommonSubstring(s1, s2)); // Output: 4 ("abcd")
 
-        // Example 3
-        s1 = "abc";
-        s2 = "";
-        System.out.println("\nExample 3:");
-        System.out.println("Length of Longest Common Substring: " + longestCommonSubstring(s1, s2)); // Output: 0
+        // // Example 3
+        // s1 = "abc";
+        // s2 = "";
+        // System.out.println("\nExample 3:");
+        // System.out.println("Length of Longest Common Substring: " + longestCommonSubstring(s1, s2)); // Output: 0
     }
 }
