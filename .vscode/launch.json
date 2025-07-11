@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PalindromePartitioningTopDownP",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.LongCS.PalindromePartitioningTopDownP",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "PalindromePartitioningRecurisive",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.LongCS.PalindromePartitioningRecurisive",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "MatrixChainMultiplicationMemoized_02",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.LongCS.MatrixChainMultiplicationMemoized_02",
