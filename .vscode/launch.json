@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaximumMatchingwithHashmap",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.MaximumMatchingwithHashmap",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "MaximumMatching",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.MaximumMatching",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "TrueBooleanParenthesizationRecursive",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.MCM.TrueBooleanParenthesizationRecursive",
