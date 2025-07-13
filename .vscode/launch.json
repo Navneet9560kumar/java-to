@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TrueBooleanParenthesizationRecursive",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.MCM.TrueBooleanParenthesizationRecursive",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "PalindromePartitioningTopDownP",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.LongCS.PalindromePartitioningTopDownP",
