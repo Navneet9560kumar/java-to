@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EggDropperblomMemo",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.MCM.EggDropperblomMemo",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "EggDropperblom",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.MCM.EggDropperblom",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "MaximumMatchingwithHashmap",
       "request": "launch",
       "mainClass": "DynamicProgramming.MaximumMatchingwithHashmap",

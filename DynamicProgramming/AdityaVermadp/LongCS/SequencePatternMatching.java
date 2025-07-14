@@ -24,7 +24,7 @@ public class SequencePatternMatching {
         int lcsLength = LCS(s, t); // LCS function call
 
         // If all characters of 's' appear in order in 't', it's a subsequence
-        if (lcsLength == s.length()) {
+        if (lcsLength == s.length()) { 
             return true;
         } else {
             return false;
