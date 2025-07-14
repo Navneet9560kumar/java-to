@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "spiralmatrix",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.TwoDArrya.spiralmatrix",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "EggDropperblomMemo",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.MCM.EggDropperblomMemo",

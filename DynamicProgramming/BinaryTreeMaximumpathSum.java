@@ -22,8 +22,8 @@ public class BinaryTreeMaximumpathSum {
                   int pathSum = root.val;
                   if(leftLineSum>0)pathSum += leftLineSum;
                   if(rightLineSum>0) pathSum +=rightLineSum;
-                  maxSum = Math.max(maxSum,pathSum);
-                  return root.val + Math.max(0,Math.max(leftLineSum, rightLineSum));
+                  return maxSum = Math.max(maxSum,pathSum);
+              
              }
 
 
