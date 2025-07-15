@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DPonTreeGeneralSyntax",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.DPONTREE.DPonTreeGeneralSyntax",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "spiralmatrix",
       "request": "launch",
       "mainClass": "RrvisionArrya.TwoDArrya.spiralmatrix",
