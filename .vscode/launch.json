@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "invertBinarytree",
+      "request": "launch",
+      "mainClass": "TreePW.BinaryTrees.invertBinarytree",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "productoftreenodes",
       "request": "launch",
       "mainClass": "TreePW.productoftreenodes",
