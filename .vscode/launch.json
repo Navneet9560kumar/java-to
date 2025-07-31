@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LeftshiftRightShift",
+      "request": "launch",
+      "mainClass": "BitMunupulations.LeftshiftRightShift",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "MaximumsumSubarraysizek",
       "request": "launch",
       "mainClass": "Slidingwindow.MaximumsumSubarraysizek",
