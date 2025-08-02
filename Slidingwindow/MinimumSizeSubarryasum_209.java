@@ -19,31 +19,18 @@ public class MinimumSizeSubarryasum_209 {
 
     public int minSubArrayLen(int target, int[] arr){
        int n = arr.length, minLen = Integer.MAX_VALUE;
-       int i=0, j=0,sum =0;
-       while (j<n && sum<target) {// frist window
-            sum += arr[j++];
-       }
-       i--;
+       int i = 0, j = 0, sum = 0;
 
-       //sliding windown 
-       while (j<n) {
-            int len = j-i+1;
-            minLen = Math.min(minLen,len);
-            sum -= arr[i];
-            i++;
-            while (j<n && sum<target) {// frist window
-            sum -= arr[i];
-            i++;
-
-               while (j<n && sum<target) {// frist window
-            sum += arr[j++];
-          }
-          j--;
-       }
-        if(minLen==Integer.MAX_VALUE) return 0;
-        return minLen;
+       while (j < n) {
+           sum += arr[j++];
+           while (sum >= target) {
+               minLen = Math.min(minLen, j - i);
+               sum -= arr[i++];
+           }
        }
 
+       if (minLen == Integer.MAX_VALUE) return 0;
+       return minLen;
     }
     public static void main(String[] args) {
       
