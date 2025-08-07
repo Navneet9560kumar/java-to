@@ -1,4 +1,4 @@
-package PrefixSum;
+
 
 public class FindPivotIndex_724 {
       public int pivotIndex(int[] nums) {
