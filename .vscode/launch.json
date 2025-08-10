@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sort_1Zero_2",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.Sort_1Zero_2",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "sortzeroone",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.sortzeroone",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "LeftshiftRightShift",
       "request": "launch",
       "mainClass": "BitMunupulations.LeftshiftRightShift",
