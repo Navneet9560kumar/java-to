@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "matrixMultiplication",
+      "request": "launch",
+      "mainClass": "RrvisionArrya.TwoDArrya.matrixMultiplication",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "baseString",
+      "request": "launch",
+      "mainClass": "string.RevisonString.baseString",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Sort_1Zero_2",
       "request": "launch",
       "mainClass": "RrvisionArrya.Sort_1Zero_2",
