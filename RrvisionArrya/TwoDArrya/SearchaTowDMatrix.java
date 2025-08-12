@@ -14,7 +14,7 @@ public class SearchaTowDMatrix {
             // }
             // return false;
 
-
+ddddddd
             int i=0, j = n-1;
             while (i>=m && j>=0) {
                   if(arr[i][j] ==target) return true;
