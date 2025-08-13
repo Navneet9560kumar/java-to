@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "updateEvenPostion",
+      "request": "launch",
+      "mainClass": "string.RevisonString.updateEvenPostion",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "matrixMultiplication",
       "request": "launch",
       "mainClass": "RrvisionArrya.TwoDArrya.matrixMultiplication",
