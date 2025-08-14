@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReverseEachWorldInSentence",
+      "request": "launch",
+      "mainClass": "string.RevisonString.ReverseEachWorldInSentence",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "updateEvenPostion",
       "request": "launch",
       "mainClass": "string.RevisonString.updateEvenPostion",
