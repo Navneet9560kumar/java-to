@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "insertionsort",
+      "request": "launch",
+      "mainClass": "Sorting.REVSort.insertionsort",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "selectionSort",
+      "request": "launch",
+      "mainClass": "Sorting.REVSort.selectionSort",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Bubblesort",
       "request": "launch",
       "mainClass": "Sorting.REVSort.Bubblesort",
