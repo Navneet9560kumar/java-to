@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindTheKClosestElement",
+      "request": "launch",
+      "mainClass": "Sorting.REVSort.BinarySearch.FindTheKClosestElement",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "UpperBound",
+      "request": "launch",
+      "mainClass": "Sorting.REVSort.BinarySearch.UpperBound",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Lowerbound",
+      "request": "launch",
+      "mainClass": "Sorting.REVSort.BinarySearch.Lowerbound",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "insertionsort",
       "request": "launch",
       "mainClass": "Sorting.REVSort.insertionsort",
