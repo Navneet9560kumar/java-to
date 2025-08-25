@@ -1,4 +1,4 @@
-package Arryas;
+
 
 public class sort1and0 {
 

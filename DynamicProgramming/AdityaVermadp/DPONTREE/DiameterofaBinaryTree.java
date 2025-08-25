@@ -21,7 +21,7 @@ public static int solve(Node root, int[]res){
 
       int diameter = left+ right;
 
-      res[0] = Math.max(res[0],diameter);
+      return res[0] = Math.max(res[0],diameter);
 
       // return hight of current subtree
 }
@@ -43,4 +43,5 @@ public class DiameterofaBinaryTree {
         // 🔹 Print the diameter (in edges)
         System.out.println("Diameter of Tree (in edges): " + res[0]);
       }
+}
 }

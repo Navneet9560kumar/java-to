@@ -1,4 +1,4 @@
-import java.util.*;;
+import java.util.*;
 
 public class sumParameterised {
       public static void print(int n){

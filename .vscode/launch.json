@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PowwrLiner",
+      "request": "launch",
+      "mainClass": "Revison.PowwrLiner",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "FindTheKClosestElement",
       "request": "launch",
       "mainClass": "Sorting.REVSort.BinarySearch.FindTheKClosestElement",
