@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "maze",
+      "request": "launch",
+      "mainClass": "Revison.maze",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "PowwrLiner",
       "request": "launch",
       "mainClass": "Revison.PowwrLiner",
