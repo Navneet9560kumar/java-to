@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RemoveAlllOccurencesofAfromString",
+      "request": "launch",
+      "mainClass": "Revison.RemoveAlllOccurencesofAfromString",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "arrayTraversal",
+      "request": "launch",
+      "mainClass": "Revison.arrayTraversal",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "maze",
       "request": "launch",
       "mainClass": "Revison.maze",
