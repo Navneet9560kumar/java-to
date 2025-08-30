@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "meargeTwoShorted",
+      "request": "launch",
+      "mainClass": "Sorting.Advance.meargeTwoShorted",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "subset",
+      "request": "launch",
+      "mainClass": "Revison.subset",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "RemoveAlllOccurencesofAfromString",
       "request": "launch",
       "mainClass": "Revison.RemoveAlllOccurencesofAfromString",
