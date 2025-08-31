@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "QuickSort_2",
+      "request": "launch",
+      "mainClass": "Sorting.Advance.QuickSort_2",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "merge_Sorting",
+      "request": "launch",
+      "mainClass": "Sorting.Advance.merge_Sorting",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "meargeTwoShorted",
       "request": "launch",
       "mainClass": "Sorting.Advance.meargeTwoShorted",

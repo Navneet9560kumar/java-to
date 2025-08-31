@@ -1,7 +1,7 @@
 package Sorting.Advance;
 
-public class merge_Sorting {
-       public static void print(int[] arr) {
+public class InversionCountparrt_2 {
+      public static void print(int[] arr) {
         for (int ele : arr) {
             System.out.print(ele + " ");
         }
@@ -68,3 +68,4 @@ while (i<a.length) c[k++] = a[i++];
       }
       }
       
+
