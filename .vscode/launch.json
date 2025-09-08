@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LinklistNodeClass",
+      "request": "launch",
+      "mainClass": "Linklist.LinklistRev.LinklistNodeClass",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "ImplementationsLL",
+      "request": "launch",
+      "mainClass": "Linklist.LinklistRev.ImplementationsLL",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "ShallowCopyofANode",
+      "request": "launch",
+      "mainClass": "Linklist.LinklistRev.ShallowCopyofANode",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "QuickSort_2",
       "request": "launch",
       "mainClass": "Sorting.Advance.QuickSort_2",
