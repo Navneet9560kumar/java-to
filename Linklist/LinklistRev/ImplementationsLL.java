@@ -1,12 +1,14 @@
 package Linklist.LinklistRev;
 
 class Node {
-    int val;
-    Node next;
+    int val;      // Har node ke andar ek integer value store hogi
+    Node next;    // 'next' pointer jo next node ko point karega
+
 
     Node(int val) {
-        this.val = val;
-        this.next = null;
+        
+        this.val = val;    // Constructor ke through value assign hoti hai
+        this.next = null;  // Jab naya node banta hai to initially uska next null hota hai 
     }
 }
 
@@ -63,7 +65,7 @@ void insertAtHead(int val){
         }else{
             temp.next = head;
             head = temp;
-        }
+        } 
         size++; // size update karna zaruri hai
     }
 
