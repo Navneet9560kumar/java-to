@@ -17,6 +17,30 @@ class SLL { // Singly Linked List
     Node tail;
     int size;
 
+    //insert at postion 
+     void insert(int idx, int val){
+        if(idx==0){
+            insertAtHead(val);
+            return;
+        }
+        
+          if(idx==size){
+            insertAtEnd(val);
+            return;
+        }
+           if(idx>size){
+          System.out.println("Inveled index");
+        }
+        Node temp = new Node(val);
+        Node x = head;
+        for(int i=1;i<=idx-1;i++){
+            x= x.next;
+        }
+        temp.next = x.next;
+        x.next  =temp;
+        size++;
+     }
+
     // Insert at end
     void insertAtEnd(int val) {
         Node temp = new Node(val);
