@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DisplayStack",
+      "request": "launch",
+      "mainClass": "Stack.RevrsionStack.DisplayStack",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "insersection_03",
+      "request": "launch",
+      "mainClass": "Stack.RevrsionStack.insersection_03",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "reverseaStack_02",
+      "request": "launch",
+      "mainClass": "Stack.RevrsionStack.reverseaStack_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "BasesofStacks",
+      "request": "launch",
+      "mainClass": "Stack.RevrsionStack.BasesofStacks",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "nextGreatestEle",
       "request": "launch",
       "mainClass": "Arryas.nextGreatestEle",
