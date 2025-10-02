@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayImplementision",
+      "request": "launch",
+      "mainClass": "Stack.RevrsionStack.ArrayImplementision",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "DisplayStack",
       "request": "launch",
       "mainClass": "Stack.RevrsionStack.DisplayStack",
