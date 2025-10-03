@@ -63,3 +63,8 @@ public class ArrayImplementision {
       }
 }
 } 
+
+
+///1047 leetcode
+/// 
+/// 

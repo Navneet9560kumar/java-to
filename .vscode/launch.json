@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NextGreaterElement",
+      "request": "launch",
+      "mainClass": "Stack.LeetCodequestion.NextGreaterElement",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "BlancedBrackets_01",
+      "request": "launch",
+      "mainClass": "Stack.LeetCodequestion.BlancedBrackets_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "ArrayImplementision",
       "request": "launch",
       "mainClass": "Stack.RevrsionStack.ArrayImplementision",
