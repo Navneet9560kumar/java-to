@@ -29,7 +29,7 @@ public class MinStack_155 {
         st.pop();
             min.pop();
     }
-    
+     
     public int top() {
         return st.peek();
     }
