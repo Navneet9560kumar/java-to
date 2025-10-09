@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayImplemationsQue_03",
+      "request": "launch",
+      "mainClass": "Stack.Queqe.revsionQueqe.ArrayImplemationsQue_03",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "DisplayQu_02",
+      "request": "launch",
+      "mainClass": "Stack.Queqe.revsionQueqe.DisplayQu_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "basicSTL",
+      "request": "launch",
+      "mainClass": "Stack.Queqe.revsionQueqe.basicSTL",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "InfixToPostfix",
       "request": "launch",
       "mainClass": "Stack.LeetCodequestion.InfixToPostfix",
