@@ -57,7 +57,11 @@ public class LinklistQUe_03 {
       }
       public static void main(String[] args) {
             queueLL q = new queueLL();
-q.display();
+      q.display();
+      q.add(10);
+      q.add(12) ;
+            System.out.println(q.peek());
 
       }
+}
 }

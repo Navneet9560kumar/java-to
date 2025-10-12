@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MyDeque_06",
+      "request": "launch",
+      "mainClass": "Stack.Queqe.revsionQueqe.MyDeque_06",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "CricularQue_05",
+      "request": "launch",
+      "mainClass": "Stack.Queqe.revsionQueqe.CricularQue_05",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "LinklistQUe_03$Node",
+      "request": "launch",
+      "mainClass": "Stack.Queqe.revsionQueqe.LinklistQUe_03$Node",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "ArrayImplemationsQue_03",
       "request": "launch",
       "mainClass": "Stack.Queqe.revsionQueqe.ArrayImplemationsQue_03",
