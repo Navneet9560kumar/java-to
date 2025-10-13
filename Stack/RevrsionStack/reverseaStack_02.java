@@ -17,14 +17,17 @@ public class reverseaStack_02 {
            while (st.size()>0) {
             
             gt.push(st.pop());
-      
+        
            }
+               System.out.println(gt);
+      
            // same order mai 
               Stack<Integer>rt = new Stack<>();
               while (gt.size()>0) {
                   rt.push(gt.pop());
               }
               System.out.println(rt);
+            
            
       }
 }

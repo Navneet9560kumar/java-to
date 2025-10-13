@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverseAQueue",
+      "request": "launch",
+      "mainClass": "Stack.Queqe.QuestiononQue.reverseAQueue",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Copystack_01",
+      "request": "launch",
+      "mainClass": "Stack.RevrsionStack.Copystack_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "MyDeque_06",
       "request": "launch",
       "mainClass": "Stack.Queqe.revsionQueqe.MyDeque_06",
