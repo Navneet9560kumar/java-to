@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Traversals",
+      "request": "launch",
+      "mainClass": "TreePW.RevesionTree.Traversals",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "NodeofTree",
+      "request": "launch",
+      "mainClass": "TreePW.RevesionTree.NodeofTree",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "reverseAQueue",
       "request": "launch",
       "mainClass": "Stack.Queqe.QuestiononQue.reverseAQueue",
