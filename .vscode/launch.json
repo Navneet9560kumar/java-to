@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BinarytreeLevelorder_102",
+      "request": "launch",
+      "mainClass": "TreePW.RevesionTree.BinarytreeLevelorder_102",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "LeverOrdertraversalBSPART_02",
+      "request": "launch",
+      "mainClass": "TreePW.RevesionTree.LeverOrdertraversalBSPART_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "DiameterodBinaryTree",
+      "request": "launch",
+      "mainClass": "TreePW.RevesionTree.DiameterodBinaryTree",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Traversals",
       "request": "launch",
       "mainClass": "TreePW.RevesionTree.Traversals",
