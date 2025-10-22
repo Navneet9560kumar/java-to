@@ -4,7 +4,7 @@ package TreePW.RevesionTree;
 import java.util.*;
 public class StackinOrderpart2_05 {
 
-       public List<Integer> inorderTraversal(TreeNode root){
+       public List<Integer> inorderTraversal(Node root){
               List<Integer> ans = new ArrayList<>();
         Stack<Node> st = new Stack<>();
             Node temp = root;
