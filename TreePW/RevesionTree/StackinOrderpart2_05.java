@@ -22,7 +22,7 @@ public class StackinOrderpart2_05 {
                   temp = top.right;
             }
         }
-
+ 
         
         return ans;
        }

@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "isBalanced_110",
+      "request": "launch",
+      "mainClass": "TreePW.RevesionTree.isBalanced_110",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "BinarytreeLevelorder_102",
       "request": "launch",
       "mainClass": "TreePW.RevesionTree.BinarytreeLevelorder_102",
