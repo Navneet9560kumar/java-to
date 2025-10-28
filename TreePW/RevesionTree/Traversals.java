@@ -28,7 +28,7 @@ public class Traversals {
          c.left = f;
         c.right = g;
 
-        display(a);
+        display(a); 
       }
 
       public static void display(Node root){
