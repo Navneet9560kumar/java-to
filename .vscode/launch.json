@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IterateMap_06",
+      "request": "launch",
+      "mainClass": "Hashmap.IterateMap_06",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "HashMap_05",
+      "request": "launch",
+      "mainClass": "Hashmap.HashMap_05",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "baseicset_01",
+      "request": "launch",
+      "mainClass": "Hashmap.baseicset_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "isBalanced_110",
       "request": "launch",
       "mainClass": "TreePW.RevesionTree.isBalanced_110",
