@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "kthSmallesrElement_02",
+      "request": "launch",
+      "mainClass": "Heaps.kthSmallesrElement_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "BasicHeapCF",
+      "request": "launch",
+      "mainClass": "Heaps.BasicHeapCF",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "IterateMap_06",
       "request": "launch",
       "mainClass": "Hashmap.IterateMap_06",
