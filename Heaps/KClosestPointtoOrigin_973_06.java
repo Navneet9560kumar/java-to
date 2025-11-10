@@ -45,5 +45,6 @@ public class KClosestPointtoOrigin_973_06 {
         for (int[] p : res) {
             System.out.println(Arrays.toString(p));
         }
+        
     }
 }
