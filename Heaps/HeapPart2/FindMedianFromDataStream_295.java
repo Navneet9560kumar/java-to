@@ -7,7 +7,7 @@ public class FindMedianFromDataStream_295 {
   List<Integer> arr = new ArrayList<>();
   
 
-       public  MedianFinder() {
+       public  void MedianFinder() {
         arr = new ArrayList<>();
     }
     
