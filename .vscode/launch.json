@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FriendsPariingProblem",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.unboundedKnapsack.FriendsPariingProblem",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "kthLargestElement_03",
       "request": "launch",
       "mainClass": "Heaps.kthLargestElement_03",

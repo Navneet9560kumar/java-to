@@ -19,7 +19,7 @@ public class RobCuttingProblom {
                   }
             }
 
-            return t[n][n];
+            return t[n][n]; 
       }
       public static void main(String[] args) {
             
