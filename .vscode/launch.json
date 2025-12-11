@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PrintshortestcommonSupersequence",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.LostestCommeanSubsequece.PalindromicSubsequence.PrintshortestcommonSupersequence",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "MinmumnumberofDeletionsinaStringtomakeitaPalindrome",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.LostestCommeanSubsequece.PalindromicSubsequence.MinmumnumberofDeletionsinaStringtomakeitaPalindrome",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "MinimumNumberofInsertionandDeletiontoconvertStringatoStringb",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.LostestCommeanSubsequece.MinimumNumberofInsertionandDeletiontoconvertStringatoStringb",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "FriendsPariingProblem",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.unboundedKnapsack.FriendsPariingProblem",
