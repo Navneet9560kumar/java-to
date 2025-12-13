@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ZeroOneKnapsack",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.PW.ZeroOneKnapsack",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "PerfectSquares_279",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.PW.PerfectSquares_279",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "PrintshortestcommonSupersequence",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.LostestCommeanSubsequece.PalindromicSubsequence.PrintshortestcommonSupersequence",
