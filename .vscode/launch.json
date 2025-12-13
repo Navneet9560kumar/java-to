@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SimpleRotate",
+      "request": "launch",
+      "mainClass": "Arryas.SimpleRotate",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "LargestArrayinelement",
+      "request": "launch",
+      "mainClass": "Arryas.LargestArrayinelement",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "Arryas.TwoSum",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "ZeroOneKnapsack",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.PW.ZeroOneKnapsack",
