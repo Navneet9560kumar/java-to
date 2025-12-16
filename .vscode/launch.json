@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PalindromePartitioningRecursive",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.MatrixChainMultiplication.PalindromePartitioningRecursive",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "SimpleRotate",
       "request": "launch",
       "mainClass": "Arryas.SimpleRotate",
