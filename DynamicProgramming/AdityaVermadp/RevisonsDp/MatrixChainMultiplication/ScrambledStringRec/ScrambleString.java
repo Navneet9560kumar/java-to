@@ -1,4 +1,4 @@
-package DynamicProgramming.AdityaVermadp.RevisonsDp.ScrambledStringRec;
+package DynamicProgramming.AdityaVermadp.RevisonsDp.MatrixChainMultiplication.ScrambledStringRec;
 
 import java.util.*;
 

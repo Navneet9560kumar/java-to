@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "kesapsackper",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.knapsack.kesapsackper",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "EggDropingMemoization",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.AdityaVermadp.RevisonsDp.MatrixChainMultiplication.EggDroping.EggDropingMemoization",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "PillarsOfOops",
       "request": "launch",
       "mainClass": "OOPS.PillarsOfOops",
