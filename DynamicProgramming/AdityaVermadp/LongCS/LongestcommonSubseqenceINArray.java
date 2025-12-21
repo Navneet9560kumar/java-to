@@ -7,7 +7,7 @@ public class LongestcommonSubseqenceINArray {
             int result =0;
             for(int num : nums){
                   map.put(num, map.getOrDefault(num, 0) + 1);
-            }
+            }     
                   // Check for harmonious subsequences
                   for(int num: nums){
                         int minNum = num;
