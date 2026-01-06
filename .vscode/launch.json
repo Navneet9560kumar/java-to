@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Ploymorphism",
+      "request": "launch",
+      "mainClass": "OOPS.Ploymorphism",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "kesapsackper",
       "request": "launch",
       "mainClass": "DynamicProgramming.AdityaVermadp.knapsack.kesapsackper",
