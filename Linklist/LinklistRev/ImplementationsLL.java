@@ -70,7 +70,7 @@ if(size==1) {
   head = tail = null;
 } else {
   Node temp = head;
-  while(temp.next != tail) {
+  while(temp.n ext != tail) {
     temp = temp.next;
   }
   temp.next = null;

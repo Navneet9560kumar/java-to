@@ -23,15 +23,28 @@ public class DisplayLinkLIstrecursively {
       d.next = e;
       e.next = f;
 
-      displayList(a);
+      displayListRecursive(a);
      }
 
-     public static void displayList(Node head) {
+
+     public static void print(Node head){
+      if(head == null){
+       return;
+      }
+      Node temp = head;
+      while (temp!=null) {
+            System.out.println(temp.val);
+            temp = temp.next;
+      }
+      
+     }
+
+     public static void displayListRecursive(Node head) {
       if (head == null) {
        return;
       }
       System.out.print(" " + head.val);
-      displayList(head.next);
-     }
+      displayListRecursive(head.next);
+     } 
 
 }
