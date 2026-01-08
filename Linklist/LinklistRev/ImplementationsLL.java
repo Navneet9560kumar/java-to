@@ -19,6 +19,7 @@ class SLL { // Singly Linked List
 
     //insert at postion 
      void insert(int idx, int val){
+ 
         if(idx==0){
             insertAtHead(val);
             return;
@@ -70,7 +71,7 @@ if(size==1) {
   head = tail = null;
 } else {
   Node temp = head;
-  while(temp.n ext != tail) {
+  while(temp.next != tail) {
     temp = temp.next;
   }
   temp.next = null;
