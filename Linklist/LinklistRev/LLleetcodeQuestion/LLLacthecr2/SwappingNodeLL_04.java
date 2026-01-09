@@ -26,7 +26,7 @@ public class SwappingNodeLL_04 {
                 front = temp;
                 end = head;
             } else if (count > k) {
-                end = end.next;
+                end = end.next; 
             }
 
             temp = temp.next;
