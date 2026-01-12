@@ -1,5 +1,6 @@
 package Linklist.LinklistRev.LLleetcodeQuestion.LLLacthecr2;
 
+import Node;
 
 class Node{
       int val;
