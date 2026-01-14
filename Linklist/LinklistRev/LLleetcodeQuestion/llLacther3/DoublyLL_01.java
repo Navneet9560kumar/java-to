@@ -5,11 +5,12 @@ class dNode{
       dNode next;
       dNode prev;
       dNode(int val){
-            this.val = val;
+             this.val = val; 
             this.next = null;
             this.prev = null;
       }
 
+    
 }
 
 public class DoublyLL_01 {
