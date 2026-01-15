@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NodeofTree",
+      "request": "launch",
+      "mainClass": "TreePW.basetreebro.NodeofTree",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "LinklistimplementationsofStack_04",
+      "request": "launch",
+      "mainClass": "Stack.gfgstack.Basestack.LinklistimplementationsofStack_04",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Arrayimplementofstack04_",
+      "request": "launch",
+      "mainClass": "Stack.gfgstack.Basestack.Arrayimplementofstack04_",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Ploymorphism",
       "request": "launch",
       "mainClass": "OOPS.Ploymorphism",
