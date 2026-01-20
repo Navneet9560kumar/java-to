@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindamaxminValueoftree_04",
+      "request": "launch",
+      "mainClass": "TreePW.basetreebro.FindamaxminValueoftree_04",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Sumoftree_03",
+      "request": "launch",
+      "mainClass": "TreePW.basetreebro.Sumoftree_03",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "ImplementesofTree",
+      "request": "launch",
+      "mainClass": "TreePW.basetreebro.ImplementesofTree",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "BasicSTLofStacks",
+      "request": "launch",
+      "mainClass": "Stack.gfgstack.Basestack.BasicSTLofStacks",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "NodeofTree",
       "request": "launch",
       "mainClass": "TreePW.basetreebro.NodeofTree",

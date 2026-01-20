@@ -24,6 +24,7 @@ public class BasicSTLofStacks {
             while (st.size()>0) {
                   gt.push(st.pop());
             }
+            System.out.println(gt);
                Stack<Integer> rt = new Stack<>();
                while (gt.size()>0) {
                         rt.push(gt.pop());
