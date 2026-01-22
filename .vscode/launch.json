@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Runningsum1Darray_01",
+      "request": "launch",
+      "mainClass": "prefixsumsssss.Runningsum1Darray_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "nthLevel_02",
       "request": "launch",
       "mainClass": "TreePW.basetreebro.BinaryOrderpartTwo.nthLevel_02",
