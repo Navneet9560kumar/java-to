@@ -14,11 +14,11 @@ class Node {
 public class Pathsumtwo_09 {
 
     public static void helper(Node root, int target,
-                              List<List<Integer>> ans,
-                              List<Integer> arr) {
+            List<List<Integer>> ans,
+            List<Integer>arr) {
 
-        if (root == null) return;
-
+        if (root == null)
+            return;
         arr.add(root.val);
 
         // leaf node
@@ -43,14 +43,14 @@ public class Pathsumtwo_09 {
 
     public static void main(String[] args) {
         /*
-              5
-             / \
-            4   8
-           /   / \
-          11  13  4
-         /  \      \
-        7    2      1
-        */
+         * 5
+         * / \
+         * 4 8
+         * / / \
+         * 11 13 4
+         * / \ \
+         * 7 2 1
+         */
 
         Node root = new Node(5);
         root.left = new Node(4);
