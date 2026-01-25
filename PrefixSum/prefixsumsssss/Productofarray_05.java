@@ -30,10 +30,19 @@ public class Productofarray_05 {
 // index 2 se end: 6 + 8 = 14
 // index 3 se end: 8 = 8
 // utlaat loop chlana ko prefix sum khate hai suf[i] = arr[i] + suf[i+1];
-
+   public static int josephus(int n, int k) {
+        // code here
+       int ans = 0;
+       for(int i=2; i<=n;i++){
+            ans = (ans+k)%i;
+       }
+       return ans+1;
+    }
 
 
          public static void main(String[] args) {
-            
+            int n=5;
+            int k =2;
+           System.out.println( josephus(n,k));
          }
 }
