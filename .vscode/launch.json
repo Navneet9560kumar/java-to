@@ -6,6 +6,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "kthsmallest_01",
+      "request": "launch",
+      "mainClass": "Hashmap.RevesionHashmap.HeaporQue.kthsmallest_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "TopviewofBinaryTree_100",
+      "request": "launch",
+      "mainClass": "Hashmap.RevesionHashmap.Hashmap.TopviewofBinaryTree_100",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "HollowMirroredRightTriangleStarPattern_07",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.ControlFlow.HollowMirroredRightTriangleStarPattern_07",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "RightTringaleStarpatter_",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.ControlFlow.RightTringaleStarpatter_",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "MirroredRhombusStarpatter_04",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.ControlFlow.MirroredRhombusStarpatter_04",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "HollowSquareStarPatternWithDiagonal",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.ControlFlow.HollowSquareStarPatternWithDiagonal",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "HollowSquareStarPattern_02",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.ControlFlow.HollowSquareStarPattern_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "SquareStarandRhombusStarPattern_01",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.ControlFlow.SquareStarandRhombusStarPattern_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "iterateinHashmap_01",
+      "request": "launch",
+      "mainClass": "Hashmap.RevesionHashmap.Hashmap.iterateinHashmap_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Productofarray_05",
       "request": "launch",
       "mainClass": "prefixsumsssss.Productofarray_05",
