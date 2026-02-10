@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "countandsay",
+      "request": "launch",
+      "mainClass": "countandsay",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Rotate_04",
+      "request": "launch",
+      "mainClass": "BinarySearch.Rotate_04",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "BinaryTP",
+      "request": "launch",
+      "mainClass": "TreePW.BinaryTrees.BinaryTP",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "FindthesmallestDivisorgivenThreshold_01",
       "request": "launch",
       "mainClass": "BinarySearch.BSONANS.FindthesmallestDivisorgivenThreshold_01",

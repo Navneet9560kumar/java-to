@@ -11,10 +11,10 @@ public static void print(int n){
 }
 
 public static int  pow(int a, int b){
-      // if(a==0 || b==0){ 
-      // System.out.println("Not Defined");
-      // return -1;
-      // }
+      if(a==0 || b==0){ 
+      System.out.println("Not Defined");
+      return -1;
+      }
       if(b==0) return 1;
      return a * pow(a,b-1);
 
