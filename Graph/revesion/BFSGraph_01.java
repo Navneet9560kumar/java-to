@@ -11,7 +11,7 @@ public class BFSGraph_01 {
             for (int i = 0; i <n; i++) {
                   if(!vis[i]){
                         bfs(i,vis,adj);
-                        count++;
+                        count++; 
                   }
             }
             return count;
@@ -19,7 +19,7 @@ public class BFSGraph_01 {
           }
 
           public static void bfs(int i, boolean[]vis, int[][]adj){
-            vis[i] = true;
+            vis[i] = true;  
             Queue<Integer> q = new LinkedList<>();
             q.add(i);
             while (q.size()>0) {
@@ -29,8 +29,8 @@ public class BFSGraph_01 {
                              
                               q.add(j);
                                vis[j] = true;
-                        }
-                  }
+                         }    
+                     }
                   }
             }
           

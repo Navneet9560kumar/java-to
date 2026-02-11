@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Allowtworemovepratic",
+      "request": "launch",
+      "mainClass": "Patterns.TowPointer.Allowtworemovepratic",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Removeduplicate_01",
+      "request": "launch",
+      "mainClass": "Patterns.TowPointer.Removeduplicate_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "countandsay",
       "request": "launch",
       "mainClass": "countandsay",
