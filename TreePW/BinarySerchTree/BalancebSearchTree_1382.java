@@ -16,6 +16,8 @@ class Node {
 
 public class BalancebSearchTree_1382 {
 
+      // Iska sabse simple tareeka hai: Inorder traversal karke values ko ek list mein bharo, aur phir un values se ek aisa tree banao jisme har node ka sirf right child ho (jaise ek Linked List hoti hai).
+
       public void inorder(Node root,List<Integer> list) {
          
             if (root == null)
@@ -34,6 +36,7 @@ public class BalancebSearchTree_1382 {
              return root;
       }
 
+      
       
 
       public boolean isBalance(Node root) {
@@ -64,7 +67,30 @@ public class BalancebSearchTree_1382 {
             return buildTree(list, 0, list.size() - 1);
       }
 
+
+      public void printInorder(Node node) {
+    if (node == null) return;
+    printInorder(node.left);
+    System.out.print(node.val + " ");
+    printInorder(node.right);
+}
+
       public static void main(String[] args) {
+BalancebSearchTree_1382 sol = new BalancebSearchTree_1382();
+Node root = new Node(10);
+    root.right = new Node(20);
+    root.right.right = new Node(30);
+    root.right.right.right = new Node(40);
+
+    System.out.println("Tree Balance hai? " + sol.isBalance(root));
+
+    // Ab isko balance karte hain
+    Node balancedRoot = sol.balanceBST(root);
+
+    System.out.println("Balancing ke baad tree balance hai? " + sol.isBalance(balancedRoot));
+    
+    System.out.print("Balanced Tree ka Inorder: ");
+    sol.printInorder(balancedRoot); // Result sorted hona chahiye
 
       }
 }
