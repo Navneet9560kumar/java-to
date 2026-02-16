@@ -6,33 +6,46 @@ public class FindThreedigthNumber_06 {
 
 
        public int[] findEvenNumbers(int[] arr){
-            HashMap<Integer, Integer> map = new HashMap<>();
-            for(int ele: arr){
+            HashMap<Integer,Integer> map = new HashMap<>();
+      
+            for(int ele : arr){
                   if(map.containsKey(ele)){
-                        int freq = map.get(ele);
+                        int freq  = map.get(ele);
                         map.put(ele, freq+1);
-                  }
-                  else map.put(ele, 1);// yaha per sare hashmap mai bhar deye gaye hai 
+
+                  }else map.put(ele, 1);
             }
-            ArrayList<Integer> ans = new ArrayList<>();
-            for(int i=100;i<=999;i++){
-                   int x = i;
-                   int c = x%10; x/=10;
-                   int b = x%10; x/=10;
-                   int a = x%10;
-                   if(map.containsKey(a)){
-                       int aFreq = map.get(a);
-                       map.put(a,aFreq-1);
-                       if(aFreq==1) map.remove(a); 
-                       if(map.containsKey(b)){
+        ArrayList<Integer>ans = new ArrayList<>();
+            for(int i=100;i<=999;i+=2){
+            int x = i;
+            int c =x%10;
+            x/=10;
+            int b = x%10;
+            x/=10;
+            int a = x;
+
+            if(map.containsKey(a)){
+                   int afreq = map.get(a);
+                   map.put(a,afreq-1);
+                   if(afreq==1)map.remove(a);
+                   if(map.containsKey(b)){
+                        int bfreq = map.get(a);
+                   map.put(b,bfreq-1);
+                   if(bfreq==1)map.remove(b);
                         if(map.containsKey(c)){
                               ans.add(i);
                         }
-                   }
-                   map.put(a, aFreq);
+                        map.put(b,bfreq); 
 
-                   
+                   }
+                   map.put(a, afreq);
             }
+          }
+          int[]ans2  = new int[ans.size()];
+          for (int i = 0; i < ans2.length; i++) {
+            ans2[i]=  ans.get(i);
+          }
+          return ans2;
        }
       public static void main(String[] args) {
             
