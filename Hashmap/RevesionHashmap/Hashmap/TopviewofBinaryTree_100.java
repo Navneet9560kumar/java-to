@@ -8,6 +8,8 @@ class Node {
 
     Node(int data) {
         this.data = data;
+        left= null;
+        right =null;
     }
 }
 
@@ -24,45 +26,28 @@ public class TopviewofBinaryTree_100 {
     }
 
     public static void topView(Node root) {
-
-        if (root == null) return;
-
-        HashMap<Integer, Integer> map = new HashMap<>();
-        Queue<Pair> q = new LinkedList<>();
-
-        int minLevel = 0;
-        int maxLevel = 0;
-
-        q.add(new Pair(root, 0));
-
-        while (!q.isEmpty()) {
-            Pair curr = q.poll();
-            Node node = curr.node;
-            int level = curr.level;
-
-            // top view -> first occurrence only
-            if (!map.containsKey(level)) {
-                map.put(level, node.data);
+            HashMap<Integer,Integer>map = new HashMap<>();
+            Queue<Pair>q = new LinkedList<>();
+            q.add(new Pair(root, 0));
+            int minLevel = Integer.MAX_VALUE;
+            int maxLevel = Integer.MIN_VALUE;
+            while (q.size()>0) {
+                Pair temp = q.remove();
+                Node n =temp.node;
+                int lvl = temp.level;
+                minLevel = Math.min(minLevel, lvl);
+                maxLevel = Math.max(maxLevel, lvl);
+                if(!map.containsKey(lvl))map.put(lvl,n.data);
+                if(n.left!=null)q.add(new Pair(n.left,lvl-1));
+                   if(n.right!=null)q.add(new Pair(n.left,lvl+1));
+            }
+            for(int i =minLevel;i<=maxLevel;i++){
+                System.out.println(map.get(i)+ " ");
             }
 
-            minLevel = Math.min(minLevel, level);
-            maxLevel = Math.max(maxLevel, level);
 
-            if (node.left != null) {
-                q.add(new Pair(node.left, level - 1));
-            }
 
-            if (node.right != null) {
-                q.add(new Pair(node.right, level + 1));
-            }
-        }
-
-        // print using min & max level
-        for (int i = minLevel; i <= maxLevel; i++) {
-            System.out.print(map.get(i) + " ");
-        }
     }
-
     public static void main(String[] args) {
 
         /*
