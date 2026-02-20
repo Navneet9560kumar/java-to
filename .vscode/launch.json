@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RemoveLeadingTrailingandExtraspace_04",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.StringBasics.RemoveLeadingTrailingandExtraspace_04",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "printAscii_01",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.StringBasics.printAscii_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "TwoSumUnique",
+      "request": "launch",
+      "mainClass": "Patterns.TowPointer.TwoSumUnique",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "NumberofIslands_02",
       "request": "launch",
       "mainClass": "revesion.dfs.NumberofIslands_02",

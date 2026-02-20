@@ -52,6 +52,72 @@ public class Triplitesum_04 {
         return result;
     }
 
+
+
+    public static ArrayList<String>inversionPaires(int arr[]){
+        int n = arr.length;
+        ArrayList<String> st = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
+            for(int j=i+1;j<n;j++){
+                if(arr[i]>arr[j]){
+                    st.add("(" + arr[i] + "," + arr[j] + ")");
+                }
+            }
+            
+        }
+        return st;
+    }
+
+    
+    private static int mergeSort(int[] arr, int left, int right){
+        int count =0;
+
+        if(left<right){
+            int mid = (left+right)/2;
+
+            count += mergeSort(arr, left, mid); // left half
+            count += mergeSort(arr, mid+1, right); // right half
+            count += merge(arr, left,mid, right);
+        }
+        return count;
+    }
+
+
+     private static int merge(int[] arr, int left, int mid, int right) {
+            int[] temp = new int[right -left +1];
+            int i=left;
+            int j = mid+1;
+            int k=0;
+            int count =0;
+
+            while (i<=mid && j<= right) {
+                if(arr[i]<=arr[j]){
+                    temp[k++] =arr[j++];
+                }else {
+                temp[k++] = arr[j++];
+                count += (mid - i + 1);  // 🔥 main inversion logic
+            }
+            }
+            while (j <= right) {
+            temp[k++] = arr[j++];
+        }
+
+        for (i = left, k = 0; i <= right; i++, k++) {
+            arr[i] = temp[k];
+        }
+
+        return count;
+    }
+
+
+
+     public static int inversionCount(int arr[]){
+          return mergeSort(arr, 0, arr.length - 1);;
+
+        
+     }
+
     public static void main(String[] args) {
         int[] arr = {-1, 0, 1, 2, -1, -4};
 
