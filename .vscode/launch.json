@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "summatrix_02",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.Matrixbasic.summatrix_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "printmatrixrowandcolum_01",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.Matrixbasic.printmatrixrowandcolum_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Ksortedarray_03",
+      "request": "launch",
+      "mainClass": "Heaps.Revesionheap.Ksortedarray_03",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "ImplementheapKunal_07",
       "request": "launch",
       "mainClass": "Heaps.Revesionheap.ImplementheapKunal_07",
