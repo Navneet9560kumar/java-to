@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ImplementheapKunal_07",
+      "request": "launch",
+      "mainClass": "Heaps.Revesionheap.ImplementheapKunal_07",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "Kthsmallestelement_01",
+      "request": "launch",
+      "mainClass": "Heaps.Revesionheap.Kthsmallestelement_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "FindlastorFristoccournes_08",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.StringBasics.FindlastorFristoccournes_08",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "FindthemaxandminOccurringChar_05",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.StringBasics.FindthemaxandminOccurringChar_05",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "RemoveLeadingTrailingandExtraspace_04",
       "request": "launch",
       "mainClass": "Learnyard.DSAFundamental.StringBasics.RemoveLeadingTrailingandExtraspace_04",
