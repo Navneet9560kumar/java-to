@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Revese_03",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.MathBase.Revese_03",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "FindtheSumofdight_02",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.MathBase.FindtheSumofdight_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "HeapVisualisation_01",
       "request": "launch",
       "mainClass": "Heaps.Revesionheap.Heapimplaemantes.HeapVisualisation_01",

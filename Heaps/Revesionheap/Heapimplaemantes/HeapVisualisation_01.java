@@ -31,10 +31,10 @@ class MinHeap {
     }
 
 public int peek() throws Exception {
-    if(size == 0) {
-        throw new Exception("Heap is Empty");
-    }
-    return arr[0];
+   if(size == 0) {
+    throw new Exception("Heap is Empty");
+}
+return arr[0];
 }
 
     private void swap(int i, int j) {
@@ -46,6 +46,44 @@ public int peek() throws Exception {
     public int size() {
         return size;
     }
+
+    public int remove() throws Exception{
+      if(size == 0) {
+    throw new Exception("Heap is Empty");
+}
+int peek =arr[0];
+swap(0, size-1);
+size--;
+downHepyfly(0)
+return peek();
+
+            }
+
+   private void downHeapify(int i) {
+
+    int lc = 2 * i + 1;
+    int rc = 2 * i + 2;
+
+    int minIdx = i;
+
+    // Check left child
+    if (lc < size && arr[lc] < arr[minIdx]) {
+        minIdx = lc;
+    }
+
+    // Check right child
+    if (rc < size && arr[rc] < arr[minIdx]) {
+        minIdx = rc;
+    }
+
+    // If already in correct position
+    if (minIdx == i) return;
+
+    swap(i, minIdx);
+
+    downHeapify(minIdx);
+}
+
 }
 
 public class HeapVisualisation_01 {
