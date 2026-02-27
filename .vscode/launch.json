@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SecondsmallestandLargest_02",
+      "request": "launch",
+      "mainClass": "TSCNQT.ProblemonArray.SecondsmallestandLargest_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "smallestnumber_01",
+      "request": "launch",
+      "mainClass": "TSCNQT.ProblemonArray.smallestnumber_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Revese_03",
       "request": "launch",
       "mainClass": "Learnyard.DSAFundamental.MathBase.Revese_03",

@@ -2,7 +2,7 @@ package revisionprefixsum;
 
 import java.util.Arrays;
 
-public class LongestSubsequencewithLimitedSum {
+public class LongestSubsequencewithLimitedSum05 {
       
       
 
