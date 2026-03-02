@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindtheDifferencebetweentheNumber_03",
+      "request": "launch",
+      "mainClass": "Learnyard.DSAFundamental.StringBasics.FindtheDifferencebetweentheNumber_03",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "SecondsmallestandLargest_02",
       "request": "launch",
       "mainClass": "TSCNQT.ProblemonArray.SecondsmallestandLargest_02",
