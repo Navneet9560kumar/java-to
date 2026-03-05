@@ -1,6 +1,8 @@
-package Slidingwindow.revisinonslidingwindow;
+ package Slidingwindow.revisinonslidingwindow;
 
-public class MaximumSumSubarraySizeK {
+import java.util.*;
+
+public class MaximumSumSubarraySizeK_01 {
       public static void main(String[] args) {
             int[] arr = {10, 20, 1, 3, -40, 80, 10};
             int k=2;
@@ -27,6 +29,31 @@ public class MaximumSumSubarraySizeK {
             }
             System.out.println("Maximum sum of a subarray of size " + k + " is: " + maxSum);
       }
+
+
+       public int maxVowels(String s, int k) {
+            int n = s.length();
+             int maxCount = 0;
+        for (int i = 0; i < n; i++) {
+            int count =0;
+
+            for(int j=i;j<i+k;j++){
+                  char c = s.charAt(j);
+
+               if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u'){
+                    count++;
+                }
+            }
+              maxCount = Math.max(maxCount, count);
+            
+        }
+        return maxCount;
+        
+
+  
+      
+     
+    }
 }
 
 
