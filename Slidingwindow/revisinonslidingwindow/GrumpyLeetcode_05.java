@@ -1,6 +1,6 @@
 package Slidingwindow.revisinonslidingwindow;
 
-public class GrumpyLeetcode {
+public class GrumpyLeetcode_05 {
 
     public int maxSatisfied(int[] arr, int[] grumpy, int k) {
 

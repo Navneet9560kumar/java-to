@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Bubblesortalgo_02",
+      "request": "launch",
+      "mainClass": "Shorting.Bubblesort.Bubblesortalgo_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "day1",
+      "request": "launch",
+      "mainClass": "Patterns.Slidingwindow.day1",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "FindtheDifferencebetweentheNumber_03",
       "request": "launch",
       "mainClass": "Learnyard.DSAFundamental.StringBasics.FindtheDifferencebetweentheNumber_03",
