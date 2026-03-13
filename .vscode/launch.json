@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Subsetbit_02",
+      "request": "launch",
+      "mainClass": "BitMunupulations.RivesionBit.Subsetbit_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
+      "name": "base_01",
+      "request": "launch",
+      "mainClass": "BitMunupulations.RivesionBit.base_01",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Bubblesortalgo_02",
       "request": "launch",
       "mainClass": "Shorting.Bubblesort.Bubblesortalgo_02",

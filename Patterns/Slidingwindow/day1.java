@@ -8,20 +8,22 @@ public class day1 {
             int res =0;
             int n = arr.length;
             int sum =0;
+
             for(int i=low;i<=high;i++){
                   sum = sum+arr[i];
             }
+
             while (high<n) {
-                  
+
                   res = Math.max(res,sum);
+
+                  sum = sum - arr[low]; // remove left element
                   low++;
+
                   high++;
-                 
-                  
                   if(high==n) break;
-                  sum = sum +arr[high];
-                  
-                  
+
+                  sum = sum +arr[high]; // add next element
             }
 
         System.out.println("Maximum Sum = " + res);
@@ -48,8 +50,6 @@ public class day1 {
 
         return res;
     }
-
-
 
     // varival code 
     
@@ -78,6 +78,3 @@ public int minSubArrayLen(int target, int[] nums) {
         slidingwindown(arr);
       }
 }
-
-
-/// question 19

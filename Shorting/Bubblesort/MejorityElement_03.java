@@ -7,6 +7,7 @@ public class MejorityElement_03 {
             arr[i] =arr[j];
             arr[j] =temp;
       }
+      
          public int majorityElement(int[] nums){
             int n = nums.length;
             for (int i = 0; i < n; i++) {
@@ -16,7 +17,7 @@ public class MejorityElement_03 {
                        j--;
                   }
             }
-            return nums[nums.length/2];
+            return nums[nums.length/2];                         
          }
       public static void main(String[] args) {
             
