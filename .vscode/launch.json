@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "kthsmalleste_02",
+      "request": "launch",
+      "mainClass": "Shorting.QickShort.kthsmalleste_02",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "Subsetbit_02",
       "request": "launch",
       "mainClass": "BitMunupulations.RivesionBit.Subsetbit_02",
