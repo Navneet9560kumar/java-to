@@ -43,6 +43,19 @@ public class TwoSumUnique {
         return result;
     }
 
+
+//     ⚡ Direct Logic (image wala):
+// sort array
+// left = 0, right = n-1
+// sum == target → store + skip duplicates
+// sum < target → left++
+// sum > target → right--
+
+
+
+
+
+
        public static List<List<Integer>> threeSum(int[] nums){
         List<List<Integer>>res = new ArrayList<>();
 
