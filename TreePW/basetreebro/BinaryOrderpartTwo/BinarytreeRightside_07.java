@@ -15,6 +15,24 @@ class Node{
 
 public class BinarytreeRightside_07 {
 
+    
+
+
+static Node ans = null;
+
+public static void fun(Node root, Node p, Node q) {
+    if (root == null) return;
+
+    if (p.val < root.val && q.val < root.val) {
+        fun(root.left, p, q);
+    } 
+    else if (p.val > root.val && q.val > root.val) {
+        fun(root.right, p, q);
+    } 
+    else {
+        ans = root;
+    }
+}
 
       public static int level(Node root){
             if(root==null) return 0;

@@ -140,7 +140,7 @@ void insertAtHead(int val){
     }
 }
 
-public class ImplementationsLL {
+public class ImplementationsLL {//❤️❤️❤️❤️❤️
 
     public static void main(String[] args) {
         SLL list = new SLL();
