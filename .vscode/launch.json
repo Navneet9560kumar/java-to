@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MiddleoftheLL_01_876",
+      "request": "launch",
+      "mainClass": "Linklist.LinklistRev.LLleetcodeQuestion.LLLacthecr2.MiddleoftheLL_01_876",
+      "projectName": "New  question_7f0de056"
+    },
+    {
+      "type": "java",
       "name": "kthsmalleste_02",
       "request": "launch",
       "mainClass": "Shorting.QickShort.kthsmalleste_02",

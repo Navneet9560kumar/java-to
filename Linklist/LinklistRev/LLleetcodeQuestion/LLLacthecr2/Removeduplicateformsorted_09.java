@@ -15,14 +15,15 @@ public class Removeduplicateformsorted_09 {
           public Node deleteDuplicates(Node head){
           Node a=head;
           Node b=head;
-          while (b!=null) {
-            if(b.val!=a.val)b=b.next;
-            else{
-                  a.next=b;
-                  a=b;
+            while (b!=null) {
+                  if(b.val!=a.val)b= b.next;
+                  else{
+                        a.next =b;
+                        a=b;
+                  }
             }
-          }
-          return b;
+            a.next = null;
+            return head; 
           }
       public static void main(String[] args) {
             
