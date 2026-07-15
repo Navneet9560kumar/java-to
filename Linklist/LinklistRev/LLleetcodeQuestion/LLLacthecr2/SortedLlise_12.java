@@ -47,4 +47,24 @@ public class SortedLlise_12 {
             return b;
         }
     }
+
+
+    public Node sortList(Node head){
+        if(head==null || head.next==null)return head;
+        Node fristHalf = head;
+        Node slow = head;
+        Node fast = head;
+
+        while (fast.next!=null && fast.next.next!=null) {
+            slow = slow.next;  
+            fast = fast.next.next;  
+        }
+        Node secondHalf = slow.next;
+        slow.next = null;
+        fristHalf=sortList(fristHalf);
+        secondHalf=sortList(secondHalf);
+        Node ans =  merge(fristHalf, secondHalf);
+        return ans; 
+
+    }
 }

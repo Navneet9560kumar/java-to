@@ -13,7 +13,20 @@ public class isSomorphic {
                         if(a[idx]!=dh) return false;
                   }
             }
+            for(int i=0;i<128;i++){
+                  a[i]= '\0';
+            }
+             for (int i = 0; i < t.length(); i++) {
+                  char ch = t.charAt(i);
+                  char dh = s.charAt(i);
+                  int idx = (int)ch;
+                  if(a[idx] == '\0') a[idx] = dh;
+                  else{
+                        if(a[idx]!=dh) return false;
+                  }
+            }
             return true;
+
             
        }
       public static void main(String[] args) {

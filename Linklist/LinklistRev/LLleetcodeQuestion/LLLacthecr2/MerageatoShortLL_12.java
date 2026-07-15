@@ -16,28 +16,20 @@ public class MerageatoShortLL_12 {
            Node temp = dummy;
            Node temp1 =list1;
            Node temp2 = list2;
-           while(temp1!=null && temp2!=null){
-                  if(temp1.val<=temp2.val){
-                        if(temp1.val==temp2.val){
-                              temp.next = temp1;
-                              temp1 = temp1.next;
-                              temp = temp.next;
-                        }
-                          else{
-                              temp.next = temp2;
-                              temp2 = temp2.next;
-                              temp = temp.next;
-                        }
+           while (temp1!=null && temp2!=null) {
+                  if(temp1.val<temp2.val){
+                        temp.next= temp1;
+                        temp1 = temp1.next;
+                        temp = temp.next;
+                  }else{
+                         temp.next= temp2;
+                        temp2 = temp2.next;
+                        temp = temp.next;
                   }
-                  if(temp1!=null){
-                        temp.next = temp1;
-                  }
-                  if(temp2!=null){
-                        temp.next = temp2;
-                  }
-                
            }
-         return dummy.next;
+           if(temp1==null)temp.next =temp2;
+           else temp.next = temp1;
+           return dummy.next;
 
       }
       public static void main(String[] args) {
