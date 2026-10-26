@@ -1,7 +1,14 @@
 {
-      "java.debug.settings.onBuildFailureProceed": true,
-      "files.associations": {
-            "*.ejs": "html",
-            "iostream": "cpp"
-      }
+  "java.debug.settings.onBuildFailureProceed": true,
+  "files.associations": {
+    "*.ejs": "html",
+    "iostream": "cpp"
+  },
+  "python-envs.pythonProjects": [
+    {
+      "path": "weak_2",
+      "envManager": "ms-python.python:venv",
+      "packageManager": "ms-python.python:pip"
+    }
+  ]
 }
